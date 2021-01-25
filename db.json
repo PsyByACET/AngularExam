@@ -1,22 +1,46 @@
 {
   "mpurchase": [
     {
-      "id": 1,
-      "name": "Свежий кобанчик",
+      "name": "Свежий кобанчикRRRR",
       "amount": 42,
-      "status": true
+      "status": "false",
+      "id": 1
     },
     {
-      "id": 2,
-      "name": "Сосиски",
-      "amount": 4212,
-      "status": true
+      "name": "Сосискиs",
+      "amount": 42124,
+      "status": "false",
+      "id": 2
     },
     {
-      "id": 3,
       "name": "Лобстер",
       "amount": 0,
-      "status": false
+      "status": "true",
+      "id": 3
+    },
+    {
+      "name": "xzzz",
+      "amount": 223,
+      "status": "false",
+      "id": 4
+    },
+    {
+      "name": "sdsd",
+      "amount": 233,
+      "status": "false",
+      "id": 5
+    },
+    {
+      "name": "22",
+      "amount": 31232,
+      "status": "true",
+      "id": 6
+    },
+    {
+      "name": "dssxxxx",
+      "amount": 412,
+      "status": "true",
+      "id": 7
     }
   ]
 }

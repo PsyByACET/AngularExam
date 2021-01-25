@@ -2,5 +2,5 @@ export interface Mpurchase {
     id: number;
     name: string;
     amount: number;
-    status: boolean;
+    status: string;
 }

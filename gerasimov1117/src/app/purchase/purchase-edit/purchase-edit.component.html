@@ -1,1 +1,21 @@
-<p>purchase-edit works!</p>
+<div class="container">
+    <form [formGroup]="purchaseForm">
+        <div class="form-group">
+            <label for="name">name</label>
+            <input type="text" class="form-control" formControlName="name" id="name">
+        </div>
+        <div class="form-group">
+            <label for="amount">amount</label>
+            <input type="number" class="form-control" formControlName="amount" id="amount">
+        </div>
+        <div class="form-group">
+            <label for="status">status</label>
+            <select class="form-control" formControlName="status" id="status">
+                <option value="true">istina</option>
+                <option value="false">loj</option>
+              </select>
+        </div>
+        <button (click)="onSave()"  class=" btn btn-primary" [disabled]="purchaseForm.invalid">save</button>
+        <button (click)="onDelete()" class=" btn btn-danger" *ngIf="id != null">delete</button>
+    </form>
+</div>
