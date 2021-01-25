@@ -4,3 +4,6 @@ export interface Mpurchase {
     amount: number;
     status: string;
 }
+export class MyComponent {
+    defaultValue = 'true';
+  }

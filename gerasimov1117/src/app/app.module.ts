@@ -7,13 +7,15 @@ import { AppComponent } from './app.component';
 import { MainComponent } from './main/main.component';
 import { TestComponent } from './test/test.component';
 import { HeaderComponent } from './shared/components/header/header.component';
+import { OrderPipe } from './shared/pipes/order.pipe';
 
 @NgModule({
   declarations: [
     AppComponent,
     MainComponent,
     TestComponent,
-    HeaderComponent
+    HeaderComponent,
+    OrderPipe
   ],
   imports: [
     BrowserModule,

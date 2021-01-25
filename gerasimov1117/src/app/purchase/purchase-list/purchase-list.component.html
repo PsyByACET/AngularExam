@@ -15,13 +15,13 @@
                     <th *ngIf="purchas.status == 'false'" class="table-success">{{purchas.id}}</th>
                     <td *ngIf="purchas.status == 'false'" class="table-success">{{purchas.name}}</td>
                     <td *ngIf="purchas.status == 'false'" class="table-success">{{purchas.amount}}</td>
-                    <td *ngIf="purchas.status == 'false'" class="table-success"><button (click)="onLinkProduct(purchas.id)" class="btn btn-primary">Изменить</button> <button (click)="onSwap(purchas.id)" class="btn btn-primary">Куплено</button></td>
+                    <td *ngIf="purchas.status == 'false'" class="table-success"><button (click)="onLinkProduct(purchas.id)" class="btn btn-warning mr-1">Изменить</button> <button (click)="onSwap(purchas.id)" class="btn btn-primary">Не куплено</button></td>
                   </tr>
                   <tr *ngFor="let purchas of purchase">
                     <th *ngIf="purchas.status == 'true'" class="">{{purchas.id}}</th>
                     <td *ngIf="purchas.status == 'true'" class="">{{purchas.name}}</td>
                     <td *ngIf="purchas.status == 'true'" class="">{{purchas.amount}}</td>
-                    <td *ngIf="purchas.status == 'true'" class=""><button (click)="onLinkProduct(purchas.id)" class="btn btn-primary">Edit</button><button (click)="onSwap(purchas.id)" class="btn btn-primary">Не куплено</button></td>
+                    <td *ngIf="purchas.status == 'true'" class=""><button (click)="onLinkProduct(purchas.id)" class="btn btn-warning mr-1">Изменить</button><button (click)="onSwap(purchas.id)" class="btn btn-primary">Куплено</button></td>
                   </tr>
                 </tbody>
               </table>

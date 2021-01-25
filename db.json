@@ -1,13 +1,13 @@
 {
   "mpurchase": [
     {
-      "name": "Свежий кобанчикRRRR",
+      "name": "Свежий кобанчик",
       "amount": 42,
       "status": "false",
       "id": 1
     },
     {
-      "name": "Сосискиs",
+      "name": "Сосиски",
       "amount": 42124,
       "status": "false",
       "id": 2
@@ -19,28 +19,40 @@
       "id": 3
     },
     {
-      "name": "xzzz",
+      "name": "курица",
       "amount": 223,
       "status": "false",
       "id": 4
     },
     {
-      "name": "sdsd",
+      "name": "Арбуз",
       "amount": 233,
       "status": "false",
       "id": 5
     },
     {
-      "name": "22",
+      "name": "Вишня",
       "amount": 31232,
       "status": "true",
       "id": 6
     },
     {
-      "name": "dssxxxx",
+      "name": "Банан",
       "amount": 412,
       "status": "true",
       "id": 7
+    },
+    {
+      "name": "шоколадка",
+      "amount": 3213,
+      "status": "true",
+      "id": 8
+    },
+    {
+      "name": "teraflok",
+      "amount": 213123,
+      "status": "false",
+      "id": 9
     }
   ]
 }

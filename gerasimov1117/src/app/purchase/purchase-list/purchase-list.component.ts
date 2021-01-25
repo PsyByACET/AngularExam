@@ -29,11 +29,23 @@ export class PurchaseListComponent implements OnInit {
   ngOnInit(): void {
     this.getData();
   }
+  
+  
 
   async getData() {
     try{
       let purchase = this.MpurchaseService.getAll();
       this.purchase = isNullOrUndefined(await purchase) ? [] : await purchase;
+      let kek = await purchase;
+      console.log(kek);
+      kek.sort((prev, next) => {
+        if (prev.name < next.name) {
+          return -1;
+        }
+        if (prev.name > next.name) {
+          return 1;
+        }
+      });
     }catch(err){
       console.error(err);
     }
