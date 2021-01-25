@@ -1,0 +1,22 @@
+{
+  "mpurchase": [
+    {
+      "id": 1,
+      "name": "Свежий кобанчик",
+      "amount": 42,
+      "status": true
+    },
+    {
+      "id": 2,
+      "name": "Сосиски",
+      "amount": 4212,
+      "status": true
+    },
+    {
+      "id": 3,
+      "name": "Лобстер",
+      "amount": 0,
+      "status": false
+    }
+  ]
+}

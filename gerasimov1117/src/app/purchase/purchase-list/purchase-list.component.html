@@ -1,0 +1,27 @@
+<div class="container">
+    <div class="row">
+        <div class="col-12">
+            <table class="table">
+                <thead>
+                  <tr>
+                    <th scope="col">#</th>
+                    <th scope="col">name</th>
+                    <th scope="col">amount</th>
+                    <th scope="col">status</th>
+                    <th scope="col"><button (click)="onAddProduct()" class="btn btn-primary">Add</button></th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr *ngFor="let purchas of purchase">
+                    <th >{{purchas.id}}</th>
+                    <td>{{purchas.name}}</td>
+                    <td>{{purchas.amount}}</td>
+                    <td>{{purchas.status}}</td>
+                    <td><button (click)="onLinkProduct(purchas.id)" class="btn btn-primary">Edit</button></td>
+                  </tr>
+                  
+                </tbody>
+              </table>
+        </div>
+    </div>
+</div>
